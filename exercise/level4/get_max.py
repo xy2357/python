@@ -1,8 +1,8 @@
 def get_max(nums):
-    max_num = 0
+    max_num = nums[0]
     for i in range(0, len(nums)):
         if max_num < nums[i]:
             max_num = nums[i]
-    print(max_num)
+    return max_num
 
-get_max([1, 2, 3, 4, 5, 6])
+print(get_max([-1, -9]))
