@@ -12,7 +12,7 @@ def row_sums(matrix):
 def col_sums(matrix):
     col_sums = []
     i = 0
-    while i < len(matrix):
+    while i < len(matrix[0]):
         col_sum = 0
         for each in matrix:
             col_sum += each[i]

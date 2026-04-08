@@ -1,18 +1,18 @@
-# def compress_string(text):
-#     compress_result = ''
-#     current_str = text[0]
-#     count = 1
-#     for i in range(1, len(text)):
-#         if text[i] == current_str:
-#             count += 1
-#         else:
-#             compress_result += current_str + str(count)
-#             current_str = text[i]
-#             count = 1
-#     compress_result += current_str + str(count)
-#     return compress_result
-#
-# print(compress_string("aaabbcccd"))
+def compress_string(text):
+    compress_result = ''
+    current_str = text[0]
+    count = 1
+    for i in range(1, len(text)):
+        if text[i] == current_str:
+            count += 1
+        else:
+            compress_result += current_str + str(count)
+            current_str = text[i]
+            count = 1
+    compress_result += current_str + str(count)
+    return compress_result
+
+print(compress_string("aaabbcccd"))
 
 def decompress_string(text):
     decompress_result = ''

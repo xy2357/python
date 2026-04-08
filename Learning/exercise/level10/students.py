@@ -34,7 +34,7 @@ for each in class_dict:
     print(f"{each}有{class_dict[each]['num']}人")
     print(f"{each}的平均分为{class_dict[each]['total_score'] / class_dict[each]['num']}")
 print(f"最高分为{max_student}")
-print(f"最高分为{min_student}")
+print(f"最低分为{min_student}")
 average_score = total_score / len(students)
 print(average_score)
 # print(class_dict)
