@@ -31,7 +31,7 @@ df_all = pd.DataFrame([
 # ## 题目1
 filter_paid = df_all['status'] == 'paid'
 # # print(df_all[filter_paid])
-# month_report = df_all[filter_paid].groupby((pd.to_datetime(df_all['order_time'])).dt.month).agg(
+# month_report = df_all[filter_paid].groupby((pd.to_datetime(df_all['order_time'])).dt.to_period('M')).agg(
 #     order_count=('order_id', 'count'),
 #     total_amount=('final_amount', 'sum'),
 #     paid_user=('user_id', 'nunique')
@@ -42,30 +42,39 @@ filter_paid = df_all['status'] == 'paid'
 # print(month_report['order_count'].idxmax())
 # print(month_report['user_avg'].idxmax())
 # print(month_report )
-
-## 题目2
+#
+# # 题目2
 # user_report = df_all[filter_paid].groupby('user_id').agg(
 #     again_user_order_count = ('order_id', 'count'),
 #     again_user_total_amount=('final_amount', 'sum')
 # )
-# # print(user_report)
-#
+# print(user_report)
+
 # filter_again = user_report['again_user_order_count'] >= 2
 # print(user_report[filter_again])
-# print(user_report[filter_again].count())
+# print(user_report[filter_again].shape(0))
 # print(user_report[filter_again]['again_user_total_amount'].sum())
-# print(df_all['final_amount'].sum() - user_report[filter_again]['again_user_total_amount'].sum())
+# print(~user_report[filter_again]['again_user_total_amount'].sum())
 
 
 ## 题目3
-# country_report = df_all[filter_paid].groupby(['country','name']).agg(
+# country_user = df_all[filter_paid].groupby(['country','name']).agg(
 #     total_sales=('final_amount', 'sum')
-# )
-# country_report = country_report.pivot_table(index='country', columns='name', values='total_sales').fillna(0)
-# print(country_report)
+# ).reset_index()
+# # print(country_user)
+#
+# # country_report = country_report.pivot_table(index='country', columns='name', values='total_sales').fillna(0)
+# # print(country_report)
+#
+# result = country_user.loc[country_user.groupby('country')['total_sales'].idxmax()]
+# print(result)
 
-## 题目4
-# user_report = df_all[filter_paid].groupby('user_id').agg(
+# # 题目4
+# paid_df = df_all[df_all['status'] == 'paid'].copy()
+# paid_df['order_time'] = pd.to_datetime(paid_df['order_time'])
+# paid_df = paid_df.sort_values('order_time')
+#
+# user_report = paid_df.groupby('user_id').agg(
 #     user_name=('name', 'first'),
 #     first_order=('order_time', 'first'),
 #     first_product=('product_name' , 'first'),
@@ -74,12 +83,33 @@ filter_paid = df_all['status'] == 'paid'
 # )
 # # df_all = df_all.set_index('user_id')
 # # print(df_all)
-# user_report['day'] = (pd.to_datetime(user_report['first_order']) - pd.to_datetime(user_report['register_date']))
+# user_report['day'] = (pd.to_datetime(user_report['first_order']) - pd.to_datetime(user_report['register_date'])).dt.days
 # print(user_report)
+#
+# # 题目5
+all_user_count = df_all.groupby('country')['user_id'].nunique().rename('user_count')
+# print(all_user_count)
 
-## 题目5
 country_report_new = df_all[filter_paid].groupby('country').agg(
-    user_count=('user_id', 'nunique'),
-    paid_count=('quantity', 'sum'),
+    paid_user_count=('user_id', 'nunique'),
+    paid_order_count=('order_id', 'count'),
     total_amount=('final_amount', 'sum')
-)
+).sort_values('total_amount', ascending=False)
+
+country_report_new['avg_order_amount'] = country_report_new['total_amount'] / country_report_new['paid_order_count']
+country_report_new['avg_user_amount'] = country_report_new['total_amount'] / country_report_new['paid_user_count']
+
+# country_product = df_all[filter_paid].pivot_table(index='country', columns='category', values='quantity', aggfunc='count').astype('Int64')
+# print(country_product)
+
+top_category = df_all[filter_paid].groupby(['country', 'category']).agg(
+    total_amount=('final_amount', 'sum')
+).reset_index()
+
+top_category = top_category.loc[top_category.groupby('country')['total_amount'].idxmax()][['country', 'category']].rename(
+    columns={'category': 'top_category'}
+).set_index('country')
+
+country_report_new = country_report_new.join(all_user_count).join(top_category)
+
+print(country_report_new)
