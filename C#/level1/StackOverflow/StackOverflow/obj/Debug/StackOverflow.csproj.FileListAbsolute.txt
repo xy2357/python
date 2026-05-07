@@ -1,0 +1,8 @@
+E:\code\code\C#\level1\StackOverflow\StackOverflow\bin\Debug\StackOverflow.exe.config
+E:\code\code\C#\level1\StackOverflow\StackOverflow\bin\Debug\StackOverflow.exe
+E:\code\code\C#\level1\StackOverflow\StackOverflow\bin\Debug\StackOverflow.pdb
+E:\code\code\C#\level1\StackOverflow\StackOverflow\obj\Debug\StackOverflow.csproj.AssemblyReference.cache
+E:\code\code\C#\level1\StackOverflow\StackOverflow\obj\Debug\StackOverflow.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\StackOverflow\StackOverflow\obj\Debug\StackOverflow.exe
+E:\code\code\C#\level1\StackOverflow\StackOverflow\obj\Debug\StackOverflow.pdb
+E:\code\code\C#\level1\StackOverflow\StackOverflow\obj\Debug\StackOverflow.exe.config

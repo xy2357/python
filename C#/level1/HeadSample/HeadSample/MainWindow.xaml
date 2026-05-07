@@ -1,0 +1,18 @@
+﻿<Window x:Class="HeadSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeadSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Button1" Content="Consume Heap Memory" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="108" Margin="34,38,0,0" VerticalAlignment="Top" Width="726" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="Release Heap Memory" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="113" Margin="34,165,0,0" VerticalAlignment="Top" Width="726" Click="Button2_Click"/>
+
+    </Grid>
+</Window>

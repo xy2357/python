@@ -1,0 +1,8 @@
+E:\code\code\C#\level1\TypeSample3\TypeSample3\bin\Debug\TypeSample3.exe.config
+E:\code\code\C#\level1\TypeSample3\TypeSample3\bin\Debug\TypeSample3.exe
+E:\code\code\C#\level1\TypeSample3\TypeSample3\bin\Debug\TypeSample3.pdb
+E:\code\code\C#\level1\TypeSample3\TypeSample3\obj\Debug\TypeSample3.csproj.AssemblyReference.cache
+E:\code\code\C#\level1\TypeSample3\TypeSample3\obj\Debug\TypeSample3.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\TypeSample3\TypeSample3\obj\Debug\TypeSample3.exe
+E:\code\code\C#\level1\TypeSample3\TypeSample3\obj\Debug\TypeSample3.pdb
+E:\code\code\C#\level1\TypeSample3\TypeSample3\obj\Debug\TypeSample3.exe.config
