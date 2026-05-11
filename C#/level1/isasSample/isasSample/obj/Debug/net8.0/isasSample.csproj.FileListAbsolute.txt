@@ -1,0 +1,15 @@
+E:\code\code\C#\level1\isasSample\isasSample\bin\Debug\net8.0\isasSample.exe
+E:\code\code\C#\level1\isasSample\isasSample\bin\Debug\net8.0\isasSample.deps.json
+E:\code\code\C#\level1\isasSample\isasSample\bin\Debug\net8.0\isasSample.runtimeconfig.json
+E:\code\code\C#\level1\isasSample\isasSample\bin\Debug\net8.0\isasSample.dll
+E:\code\code\C#\level1\isasSample\isasSample\bin\Debug\net8.0\isasSample.pdb
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.AssemblyInfoInputs.cache
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.AssemblyInfo.cs
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.sourcelink.json
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.dll
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\refint\isasSample.dll
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.pdb
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\isasSample.genruntimeconfig.cache
+E:\code\code\C#\level1\isasSample\isasSample\obj\Debug\net8.0\ref\isasSample.dll
