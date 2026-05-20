@@ -1,0 +1,14 @@
+E:\C#\Learning\Learning\Question2\Question2\bin\Debug\net8.0\Question2.exe
+E:\C#\Learning\Learning\Question2\Question2\bin\Debug\net8.0\Question2.deps.json
+E:\C#\Learning\Learning\Question2\Question2\bin\Debug\net8.0\Question2.runtimeconfig.json
+E:\C#\Learning\Learning\Question2\Question2\bin\Debug\net8.0\Question2.dll
+E:\C#\Learning\Learning\Question2\Question2\bin\Debug\net8.0\Question2.pdb
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.AssemblyInfoInputs.cache
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.AssemblyInfo.cs
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.csproj.CoreCompileInputs.cache
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.dll
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\refint\Question2.dll
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.pdb
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\Question2.genruntimeconfig.cache
+E:\C#\Learning\Learning\Question2\Question2\obj\Debug\net8.0\ref\Question2.dll
