@@ -1,0 +1,15 @@
+E:\code\code\C#\level1\TestMain\TestMain\bin\Debug\net8.0\TestMain.exe
+E:\code\code\C#\level1\TestMain\TestMain\bin\Debug\net8.0\TestMain.deps.json
+E:\code\code\C#\level1\TestMain\TestMain\bin\Debug\net8.0\TestMain.runtimeconfig.json
+E:\code\code\C#\level1\TestMain\TestMain\bin\Debug\net8.0\TestMain.dll
+E:\code\code\C#\level1\TestMain\TestMain\bin\Debug\net8.0\TestMain.pdb
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.AssemblyInfoInputs.cache
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.AssemblyInfo.cs
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.sourcelink.json
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.dll
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\refint\TestMain.dll
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.pdb
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\TestMain.genruntimeconfig.cache
+E:\code\code\C#\level1\TestMain\TestMain\obj\Debug\net8.0\ref\TestMain.dll

@@ -1,0 +1,15 @@
+E:\code\code\C#\level1\Question13\Question13\bin\Debug\net8.0\Question13.exe
+E:\code\code\C#\level1\Question13\Question13\bin\Debug\net8.0\Question13.deps.json
+E:\code\code\C#\level1\Question13\Question13\bin\Debug\net8.0\Question13.runtimeconfig.json
+E:\code\code\C#\level1\Question13\Question13\bin\Debug\net8.0\Question13.dll
+E:\code\code\C#\level1\Question13\Question13\bin\Debug\net8.0\Question13.pdb
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.AssemblyInfoInputs.cache
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.AssemblyInfo.cs
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.sourcelink.json
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.dll
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\refint\Question13.dll
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.pdb
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\Question13.genruntimeconfig.cache
+E:\code\code\C#\level1\Question13\Question13\obj\Debug\net8.0\ref\Question13.dll

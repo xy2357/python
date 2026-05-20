@@ -1,0 +1,15 @@
+E:\code\code\C#\level1\Quesstion7\Quesstion7\bin\Debug\net8.0\Quesstion7.exe
+E:\code\code\C#\level1\Quesstion7\Quesstion7\bin\Debug\net8.0\Quesstion7.deps.json
+E:\code\code\C#\level1\Quesstion7\Quesstion7\bin\Debug\net8.0\Quesstion7.runtimeconfig.json
+E:\code\code\C#\level1\Quesstion7\Quesstion7\bin\Debug\net8.0\Quesstion7.dll
+E:\code\code\C#\level1\Quesstion7\Quesstion7\bin\Debug\net8.0\Quesstion7.pdb
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.AssemblyInfoInputs.cache
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.AssemblyInfo.cs
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.sourcelink.json
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.dll
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\refint\Quesstion7.dll
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.pdb
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\Quesstion7.genruntimeconfig.cache
+E:\code\code\C#\level1\Quesstion7\Quesstion7\obj\Debug\net8.0\ref\Quesstion7.dll
