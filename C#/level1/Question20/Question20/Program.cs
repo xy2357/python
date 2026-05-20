@@ -20,12 +20,23 @@ namespace Question20
         public string Name { get; set; }
     }
 
+    class ProductFactory
+    {
+        public Product MakePizza()
+        {
+            Product p = new Product();
+            p.Name = "Pizza";
+            return p;
+        }
+    }
+
     class WrapFactory
     {
+        //Func<Product> getProduct = factory.MakePizza;
         public Box WrapProduct(Func<Product> getProduct)
         {
             Box box = new Box();
-            Product product =
+            Product product = facMakePizza
             box.Product = product;
             return box;
         }
