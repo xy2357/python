@@ -1,23 +1,28 @@
-﻿using System.Net.Http.Headers;
-
-namespace Question20
+﻿namespace Question20
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+            ProductFactory productFactory = new ProductFactory();
+            WrapFactory wrapFactory = new WrapFactory();
 
-    class Box
-    {
-        public Product Product { get; set; }
+            Func<Product> func = productFactory.MakePizza;
+
+            Box box = wrapFactory.WrapProduct(func);
+
+            Console.WriteLine(box.Product.Name);
+        }
     }
 
     class Product
     {
         public string Name { get; set; }
+    }
+
+    class Box
+    {
+        public Product Product { get; set; }
     }
 
     class ProductFactory
@@ -32,12 +37,14 @@ namespace Question20
 
     class WrapFactory
     {
-        //Func<Product> getProduct = factory.MakePizza;
         public Box WrapProduct(Func<Product> getProduct)
         {
             Box box = new Box();
-            Product product = facMakePizza
+
+            Product product = getProduct.Invoke();
+
             box.Product = product;
+
             return box;
         }
     }
