@@ -1,0 +1,15 @@
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\bin\Debug\net8.0\ProductDelegateExample.exe
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\bin\Debug\net8.0\ProductDelegateExample.deps.json
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\bin\Debug\net8.0\ProductDelegateExample.runtimeconfig.json
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\bin\Debug\net8.0\ProductDelegateExample.dll
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\bin\Debug\net8.0\ProductDelegateExample.pdb
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.AssemblyInfoInputs.cache
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.AssemblyInfo.cs
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.sourcelink.json
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.dll
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\refint\ProductDelegateExample.dll
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.pdb
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ProductDelegateExample.genruntimeconfig.cache
+E:\code\code\C#\level0\ProductDelegateExample\ProductDelegateExample\obj\Debug\net8.0\ref\ProductDelegateExample.dll

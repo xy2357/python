@@ -1,0 +1,15 @@
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\bin\Debug\net8.0\SimpleDelegate.exe
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\bin\Debug\net8.0\SimpleDelegate.deps.json
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\bin\Debug\net8.0\SimpleDelegate.runtimeconfig.json
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\bin\Debug\net8.0\SimpleDelegate.dll
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\bin\Debug\net8.0\SimpleDelegate.pdb
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.AssemblyInfoInputs.cache
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.AssemblyInfo.cs
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.sourcelink.json
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.dll
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\refint\SimpleDelegate.dll
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.pdb
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\SimpleDelegate.genruntimeconfig.cache
+E:\code\code\C#\level0\SimpleDelegate\SimpleDelegate\obj\Debug\net8.0\ref\SimpleDelegate.dll
