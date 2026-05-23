@@ -6,33 +6,33 @@
         {
             ProductFactory productFactory = new ProductFactory();
             WrapFactory wrapFactory = new WrapFactory();
+            Logger log = new Logger();
 
             Func<Product> func1 = new Func<Product>(productFactory.MakePizza);
             Func<Product> func2 = new Func<Product>(productFactory.MakeToyCar);
 
-            Box box1 = wrapFactory.WrapProduct(func1);
-            Box box2 = wrapFactory.WrapProduct(func2);
+            Action<Product> logger = new Action<Product>(log.Log);
+
+            Box box1 = wrapFactory.WrapProduct(func1, logger);
+            Box box2 = wrapFactory.WrapProduct(func2, logger);
 
             Console.WriteLine(box1.Product.Name);
             Console.WriteLine(box2.Product.Name);
         }
     }
 
+    class Logger
+    {
+        public void Log(Product product)
+        {
+            Console.WriteLine($"Product '{product.Name}' created at {DateTime.UtcNow}.Price is {product.Price}");
+        }
+    }
+
     class Product
     {
-        private string name;
-
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
+        public string Name { get; set; }
+        public int Price { get; set; }
 
     }
 
@@ -43,10 +43,14 @@
 
     class WrapFactory
     {
-        public Box WrapProduct(Func<Product> getProduct)
+        public Box WrapProduct(Func<Product> getProduct, Action<Product> logger)
         {
             Box box = new Box();
             Product product = getProduct();
+            if (product.Price > 50)
+            {
+                logger(product);
+            }
             box.Product = product;
             return box;
         }
@@ -58,12 +62,14 @@
         {
             Product product = new Product();
             product.Name = "Pizza";
+            product.Price = 20;
             return product;
         }
         public Product MakeToyCar()
         {
             Product product = new Product();
             product.Name = "ToyCar";
+            product.Price = 100;
             return product;
         }
     }

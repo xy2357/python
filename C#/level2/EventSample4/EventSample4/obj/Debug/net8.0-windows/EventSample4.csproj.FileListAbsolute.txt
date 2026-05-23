@@ -1,0 +1,15 @@
+E:\code\C#\level2\EventSample4\EventSample4\bin\Debug\net8.0-windows\EventSample4.exe
+E:\code\C#\level2\EventSample4\EventSample4\bin\Debug\net8.0-windows\EventSample4.deps.json
+E:\code\C#\level2\EventSample4\EventSample4\bin\Debug\net8.0-windows\EventSample4.runtimeconfig.json
+E:\code\C#\level2\EventSample4\EventSample4\bin\Debug\net8.0-windows\EventSample4.dll
+E:\code\C#\level2\EventSample4\EventSample4\bin\Debug\net8.0-windows\EventSample4.pdb
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.AssemblyInfoInputs.cache
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.AssemblyInfo.cs
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.csproj.CoreCompileInputs.cache
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.sourcelink.json
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.dll
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\refint\EventSample4.dll
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.pdb
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\EventSample4.genruntimeconfig.cache
+E:\code\C#\level2\EventSample4\EventSample4\obj\Debug\net8.0-windows\ref\EventSample4.dll
