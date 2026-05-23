@@ -1,0 +1,7 @@
+E:\code\code\C#\level0\EventStatement\EventStatement\bin\Debug\EventStatement.exe.config
+E:\code\code\C#\level0\EventStatement\EventStatement\bin\Debug\EventStatement.exe
+E:\code\code\C#\level0\EventStatement\EventStatement\bin\Debug\EventStatement.pdb
+E:\code\code\C#\level0\EventStatement\EventStatement\obj\Debug\EventStatement.csproj.AssemblyReference.cache
+E:\code\code\C#\level0\EventStatement\EventStatement\obj\Debug\EventStatement.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level0\EventStatement\EventStatement\obj\Debug\EventStatement.exe
+E:\code\code\C#\level0\EventStatement\EventStatement\obj\Debug\EventStatement.pdb
