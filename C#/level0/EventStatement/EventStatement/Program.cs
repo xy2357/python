@@ -32,19 +32,21 @@ namespace EventStatement
     public class Customer
     {
 
-        public OrderEventHandler orderEventHandler;
+        //public OrderEventHandler orderEventHandler;
 
-        public event OrderEventHandler Order
-        {
-            add
-            {
-                orderEventHandler += value;
-            }
-            remove
-            {
-                orderEventHandler -= value;
-            }
-        }
+        //public event OrderEventHandler Order
+        //{
+        //    add
+        //    {
+        //        orderEventHandler += value;
+        //    }
+        //    remove
+        //    {
+        //        orderEventHandler -= value;
+        //    }
+        //}
+
+        public event OrderEventHandler Order;
 
         public double Bill { get; set; }
         
@@ -71,12 +73,12 @@ namespace EventStatement
                 Thread.Sleep(1000);
             }
 
-            if (this.orderEventHandler != null)
+            if (this.Order != null)
             {
                 OrderEventArgs e = new OrderEventArgs();
                 e.DishName = "Buger";
                 e.Size = "large";
-                this.orderEventHandler(this, e);
+                this.Order(this, e);
             }
         }
 
