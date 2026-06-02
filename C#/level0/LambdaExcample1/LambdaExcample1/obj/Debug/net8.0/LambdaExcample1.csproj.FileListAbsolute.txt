@@ -1,0 +1,15 @@
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\bin\Debug\net8.0\LambdaExcample1.exe
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\bin\Debug\net8.0\LambdaExcample1.deps.json
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\bin\Debug\net8.0\LambdaExcample1.runtimeconfig.json
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\bin\Debug\net8.0\LambdaExcample1.dll
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\bin\Debug\net8.0\LambdaExcample1.pdb
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.AssemblyInfoInputs.cache
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.AssemblyInfo.cs
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.csproj.CoreCompileInputs.cache
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.sourcelink.json
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.dll
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\refint\LambdaExcample1.dll
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.pdb
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\LambdaExcample1.genruntimeconfig.cache
+E:\code\code\C#\level0\LambdaExcample1\LambdaExcample1\obj\Debug\net8.0\ref\LambdaExcample1.dll
